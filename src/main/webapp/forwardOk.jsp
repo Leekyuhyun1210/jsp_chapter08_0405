@@ -9,9 +9,9 @@
 <body>
 	저는 forward.jsp로부터 포워딩된 forwardOk.jsp 입니다.<br>
 	<%
-		String id = request.getParameter("memberId");
-		String pw = request.getParameter("memberPw");
+		String mid = request.getParameter("memberId");
+		String mpw = request.getParameter("memberPw");
 	%>
-	Id는 <%= id %>이고 Pw는 <%= pw %>입니다.
+	ID는 <%= mid %>이고 PW는 <%= mpw %>입니다.
 </body>
 </html>
