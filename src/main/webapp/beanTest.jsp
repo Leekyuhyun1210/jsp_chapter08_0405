@@ -7,6 +7,7 @@
 <title>자바빈즈 연습</title>
 </head>
 <body>
-	지금 시간은 ... 입니다.
+	<jsp:useBean id="todayTime" class="java.util.Date" />
+	지금 시간은 <%= todayTime.toLocaleString() %> 입니다.
 </body>
 </html>
